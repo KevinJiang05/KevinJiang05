@@ -1,43 +1,31 @@
-<h1 align="center">Hi, I'm Kevin Jiang 👋</h1>
+<h1 align="center">Kevin Jiang</h1>
 
-<p align="center">
-  <strong>Underwater robotics · Computer vision · Ground control systems</strong>
-</p>
+<p align="center">水下机器人 · 计算机视觉 · 地面站开发</p>
 
-<p align="center">
-  I build practical software that connects cameras, perception, robotics hardware, and operator workflows.
-</p>
+## 关于我
 
-## What I work on
+我主要做水下机器人相关的软件，工作内容横跨相机、视觉处理、地面站和实际设备联调。
 
-- 🤖 Underwater robot tooling and operator-facing systems
-- 👁️ Multi-camera preview, calibration, projection, and surround-view stitching
-- 🛰️ QGroundControl customization and low-latency video integration
-- 🧪 Reproducible engineering experiments with explicit runtime and data boundaries
+比起做一个只能演示的原型，我更关心它在现场是否稳定、问题是否容易定位，以及修改之后能不能复现。
 
-## Featured projects
+## 最近在做
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [DeepShark View Studio](https://github.com/KevinJiang05/DeepSharkViewStudio) | Standalone workbench for multi-camera preview, calibration, projection experiments, stitching, diagnostics, and QGC video output. | Python · PySide6 · OpenCV |
-| [QGC for GRobot](https://github.com/KevinJiang05/QGC_for_GRobot) | Customized QGroundControl build for the DeepShark underwater robot ground station. | C++ · Qt/QML · MAVLink |
+- 多相机接入、标定、投影与环视拼接
+- QGroundControl 定制和低延迟视频链路
+- 工程工具、运行状态监测与硬件联调
 
-## Toolbox
+## 项目
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&amp;logoColor=white">
-  <img alt="C++" src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&amp;logoColor=white">
-  <img alt="Qt" src="https://img.shields.io/badge/Qt-41CD52?logo=qt&amp;logoColor=white">
-  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&amp;logoColor=white">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&amp;logoColor=white">
-</p>
+### [DeepShark View Studio](https://github.com/KevinJiang05/DeepSharkViewStudio)
 
-## How I build
+一个独立的多相机开发工具，包含实时预览、相机标定、投影实验、环视拼接、运行诊断和 QGC 视频输出。主要使用 Python、PySide6 和 OpenCV。
 
-I prefer clear ownership boundaries, observable runtime state, hardware-aware validation, and small changes backed by tests. My current focus is turning real camera and vehicle workflows into tools that are easier to understand, reproduce, and operate.
+### [QGC for GRobot](https://github.com/KevinJiang05/QGC_for_GRobot)
 
----
+面向 DeepShark 水下机器人的 QGroundControl 定制版本，主要涉及 C++、Qt/QML 和 MAVLink。
 
-<p align="center">
-  <a href="https://github.com/KevinJiang05?tab=repositories">Explore my repositories</a>
-</p>
+## 常用技术
+
+Python · C++ · PySide6 · Qt/QML · OpenCV · GitHub Actions
+
+我习惯先把运行状态和边界条件弄清楚，再逐步解决问题；涉及硬件的改动，尽量留下可复现的测试和记录。
